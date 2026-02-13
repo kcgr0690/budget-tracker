@@ -15,5 +15,7 @@ balanceEl.textContent = `$${balance.tofixed(2)}`;
 //making a function to deposit an amount.
 
 function deposit(amount) {
-    
+    balance += amount;
+    balanceEl.textContent = `$${balance.toFixed(2)}`;
+    localStorage.setItem('balance', balance);
 }
