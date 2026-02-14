@@ -21,6 +21,16 @@ body {
     color: #4a2614;
 }
 
+/* containers for each are going to be styled below: */
+
+#dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    width: 100%
+}
+
 #balance-container {
     background-color: #8b6f5f; /* change this to lighter coffee color later. */
     padding: 20px;
@@ -36,6 +46,19 @@ body {
     font-weight: bold;
     color: #cfa97c;
     margin-bottom: 15px;
+}
+
+#investments-container {
+    background-color: #a07c65;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 500;
+    height: 180;
+    color: #e8d7c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* input box styling here. may need to change to fit theme after i change other colors. */
