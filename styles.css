@@ -25,7 +25,7 @@ body {
 #balance {
     font-size: 2rem;
     font-weight: bold;
-    color: #d8c3a5;
+    color: #cfa97c;
     margin-bottom: 15px;
 }
 
@@ -41,3 +41,27 @@ input[type="number"] {
     background-color: #e8d7c3;
     color: #4a2614;
 }
+
+/*this is for the buttons. */
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4a2614;
+    color: #e8d7c3;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1 ease;
+}
+
+button:hover {
+    background-color: #6b3a22;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
