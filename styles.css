@@ -24,3 +24,16 @@ body {
     color: #d8c3a5;
     margin-bottom: 15px;
 }
+
+/* input box styling here. may need to change to fit theme after i change other colors. */
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #cfa97c;
+    font-size: 1rem;
+    background-color: #e8d7c3;
+    color: #4a2614;
+}
